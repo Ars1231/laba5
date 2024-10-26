@@ -35,9 +35,9 @@ void SortByAverageRating(std::vector<Student>& students) {
 
 int main() {
     vector<Student> students = {
-        {"Anna", "Ivanova", "Group1", {4, 5, 5, 3}},
-        {"Ivan", "Vitaly", "Group2", {2, 5, 4, 3}},
-        {"Ars", "Potapov", "Group3", {5, 5, 5, 5}}
+       {"Anna", "Ivanova", "Group1", {4, 5, 5, 3}, {"Math", "Physics"}},
+        {"Ivan", "Vitaly", "Group2", {2, 5, 4, 3}, {"Biology", "Chemistry"}},
+        {"Ars", "Potapov", "Group3", {5, 5, 5, 5}, {"History", "Literature"}}
     };
     
 
