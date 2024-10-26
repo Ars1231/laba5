@@ -13,14 +13,14 @@ struct Student {
 };
 
 
-std::vector<std::string> GroupsId(const std::vector<Student>& students) {
-    std::set<std::string> uniqGroups; 
+vector<std::string> GroupsId(const std::vector<Student>& students) {
+    set<string> uniqGroups; 
 
     for (const auto& student : students) {
         uniqGroups.insert(student.GroupId); 
     }
     
-	vector<std::string> groupsVector(uniqGroups.begin(), uniqGroups.end());
+	vector<string> groupsVector(uniqGroups.begin(), uniqGroups.end());
     return groupsVector;
 }
 
