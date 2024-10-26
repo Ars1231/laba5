@@ -36,10 +36,9 @@ int main() {
     vector<Student> students = {
         {"Anna", "Ivanova", "Group1", {4, 5, 5, 3}},
         {"Ivan", "Vitaly", "Group2", {2, 5, 4, 3}},
-        {"Ars", "Potapov", "Group3", {5, 5, 5, 5}},
-        {"Maria", "Sidorova", "Group4", {4, 4, 5, 4}},
-        {"Oleg", "Dmitriev", "Group5", {3, 3, 2, 4}}
+        {"Ars", "Potapov", "Group3", {5, 5, 5, 5}}
     };
+    
 
     cout << "До сортировки:" << endl;
     for (const auto& student : students) {
