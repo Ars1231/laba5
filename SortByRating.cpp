@@ -12,6 +12,7 @@ struct Student {
     string LastName;
     string GroupId;
     vector<unsigned> Ratings;
+    vector<std::string> Subjects;
 
     void cout_inf() const {
         cout << "Имя: " << Name << ",Фамилия: " << LastName
